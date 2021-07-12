@@ -18,3 +18,11 @@ function validateForm() {
 	return false;
   }
  };
+
+ email.addEventListener('keydown', function(event) {
+	const key = event.key;
+	if (key === "Backspace" || key === "Delete") {
+		email.value = "";
+		exclamation.style.display = "none"
+	}
+});
