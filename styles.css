@@ -19,8 +19,8 @@ body {
 	height:100%;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
-	
 }
+
 .container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -28,8 +28,7 @@ body {
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
 	place-items: center;
-	
-		}
+}
 	
 .logo {	
 	grid-row: 1;
@@ -43,14 +42,13 @@ body {
     width: 400px;
 	height: 300px;
 	margin-left: 12rem;
-	}
+}
 
 .right {
 	width: 200px;
 	height: 200px;
 	grid-column: 2;
-	 
-		}
+}
 
 #girl{
 	height: 700px;
@@ -62,6 +60,7 @@ body {
 	font-size: 4.5rem;
 	padding-top: 4rem;
 }
+
 h1  {
 	color: hsl(0, 6%, 24%);
 	letter-spacing: 10px;
@@ -71,16 +70,16 @@ h1 span {
 	color: hsl(0, 36%, 70%);
 	font-weight: 400;
 }
+
 p{
 	font-weight: 300;
 	color: hsl(0, 36%, 70%);
 	padding: 2rem 0 2rem 0;
-	
 }
+
 form{
 	display:flex;
-	position: relative;
-   
+	position: relative; 
 }
 
 form input{
@@ -113,7 +112,7 @@ button {
     right: 0;
 	cursor: pointer;
 	box-shadow: 2px 2px 5px hsl(0, 36%, 70%);
-    }
+}
 
 .error{
 	position: absolute;
@@ -121,21 +120,21 @@ button {
 	top: 35%;
 	height: 35%;
 	display: none;
-}	
+}
+
 #girl2 {
 display: none;
 }
 
 @media screen and (max-width: 400px) {
+
 .container{
 		display: grid;
 		grid-template-rows:  100px;
 		grid-template-columns: 200px 1fr;
 		margin: 0 auto;
 		position: relative;
-				
-		}	
-	
+}	
 
 .mobile #girl2 {
 	display: block;
@@ -143,7 +142,7 @@ display: none;
 	left: 100px;
 	width: 400px;
 	margin: 0;
-	}
+}
 
 .left {
 	grid-area: 3 / 1;
@@ -151,11 +150,10 @@ display: none;
 	padding-bottom: 2rem;
 }
 
-
 .right #girl {
 	display:none;
-	
 }
+
 .logo {
 	padding-top: 2rem;
 	margin-left: 1rem;
@@ -181,13 +179,11 @@ p{
 #tpgf {
 	font-size: 3rem;
 	text-align: center;
-
 }
+
 form input{
 	width: 20rem;
-  }
-
-
+}
 }
 
 
